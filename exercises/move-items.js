@@ -12,8 +12,7 @@
  */
 
 // Your code goes here...
-const getElements = document.querySelectorAll(".item");
-const allItems = getElements;
+const allItems = document.querySelectorAll(".item");
 
 /**
  * @task
@@ -23,8 +22,7 @@ const allItems = getElements;
  * */
 
 // Your code goes here
-const getMain = document.getElementById("main");
-const main = getMain;
+const main = document.getElementById("main");
 
 /**
  * @task
@@ -34,8 +32,7 @@ const main = getMain;
  */
 
 // Your code goes here
-const getFavs = document.getElementById("favs");
-const favs = getFavs;
+const favs = document.getElementById("favs");
 
 /**
  * @task
@@ -49,7 +46,7 @@ const favs = getFavs;
 // Your code goes here
 function updateCollections(id, direction) {
   const item = document.getElementById(id);
-  const itemIcon = item.querySelector(".icon");
+  const itemIcon = item.firstElementChild;
   if (direction === "toFavs") {
     favs.appendChild(item);
     itemIcon.classList.remove("fa-heart-circle-plus");

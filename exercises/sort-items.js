@@ -12,8 +12,7 @@
  */
 
 // Your code goes here...
-const getElements = document.querySelectorAll(".item");
-const allItems = getElements;
+const allItems = document.querySelectorAll(".item");
 
 /**
  * @task
@@ -23,8 +22,7 @@ const allItems = getElements;
  */
 
 // Your code goes here...
-const getSortBtn = document.querySelectorAll(".sortBtn");
-const sortBtn = getSortBtn;
+const sortBtn = document.querySelectorAll(".sortBtn");
 
 /**
  * @task
